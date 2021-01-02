@@ -22,7 +22,7 @@ def get_filters():
     cities = ['chicago', 'new york city', 'washington']
     
     # Gather selected city from input, while loop handles invalid names and repeats until actual name is typed
-    city = input("Enter a city name (chicago, new york city, or washington): ")
+    city = input("Enter a city name (chicago, new york city, or washington): ").lower()
     while city not in cities:
         city = input("Invalid, please enter a city name (chicago, new york city, or washington): ")
     
