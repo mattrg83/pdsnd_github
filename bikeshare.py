@@ -264,6 +264,7 @@ def user_stats(df):
 
     
 def raw_data(df):    
+    """Displays 5 lines of raw data if requested by yes/no prompt."""
     view_data = input('\nWould you like to view 5 rows of individual trip data? Enter yes or no\n')
     start_loc = 0
     while view_data == 'yes':
