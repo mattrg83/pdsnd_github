@@ -24,7 +24,7 @@ def get_filters():
     # Gather selected city from input, while loop handles invalid names and repeats until actual name is typed
     city = input("Enter a city name (chicago, new york city, or washington): ").lower()
     while city not in cities:
-        city = input("Invalid, please enter a city name (chicago, new york city, or washington): ")
+        city = input("Invalid, please enter a city name (chicago, new york city, or washington): ").lower()
     
     # print selected city, convert new york city to file name
     print("City selected is: " + city)
@@ -38,9 +38,9 @@ def get_filters():
     months = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december', 'all']
     
     # Gather selected month from input, while loop handles invalid entries
-    month = input("Enter a month of the year (january, february, march, ...), or 'all' for no filter: ")
+    month = input("Enter a month of the year (january, february, march, ...), or 'all' for no filter: ").lower()
     while month not in months:
-        month = input("Invalid, please enter a month of the year (january, february, march, ...), or 'all' for no filter: ")
+        month = input("Invalid, please enter a month of the year (january, february, march, ...), or 'all' for no filter: ").lower()
 
     # print selected month, convert to integer value for date range selection, if statement handles the 'all' option
     print("Month selected is: " + month)
