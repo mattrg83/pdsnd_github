@@ -6,7 +6,8 @@ Bikeshare Python Project for Udacity
 
 ### Description
 This project evaluates CSV files of bike sharing data and computes statistical
-information about the data in the files. 
+information about the data in the files. Example statistics are average travel
+time, most common gender of rider, and most common month of travel.
 
 ### Files used
 bikeshare.py
