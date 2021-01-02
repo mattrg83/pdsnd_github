@@ -1,15 +1,21 @@
 ### Date created
-Include the date you created this project and README file.
+Bikeshare created on December 27, 2021
 
 ### Project Title
-Replace the Project Title
+Bikeshare Python Project for Udacity
 
 ### Description
-Describe what your project is about and what it does
+This project evaluates CSV files of bike sharing data and computes statistical
+information about the data in the files. Example statistics are average travel
+time, most common gender of rider, and most common month of travel.
 
 ### Files used
-Include the files used
+bikeshare.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+I referenced Udacity's Git documentation when creating this repo
+Udacity provided the bikeshare.py template
 
