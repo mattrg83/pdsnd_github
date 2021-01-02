@@ -267,6 +267,7 @@ def raw_data(df):
     """Displays 5 lines of raw data if requested by yes/no prompt."""
     view_data = input('\nWould you like to view 5 rows of individual trip data? Enter yes or no\n')
     start_loc = 0
+    # while loop to request 5 lines of data and display until no is entered
     while view_data == 'yes':
         print(df.iloc[start_loc:start_loc+5])
         start_loc += 5
