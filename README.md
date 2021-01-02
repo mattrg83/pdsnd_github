@@ -1,8 +1,8 @@
 ### Date created
-Include the date you created this project and README file.
+January 2, 2021
 
 ### Project Title
-Replace the Project Title
+Bikeshare Python Project for Udacity
 
 ### Description
 Describe what your project is about and what it does
